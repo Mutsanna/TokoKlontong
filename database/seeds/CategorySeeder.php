@@ -26,5 +26,11 @@ class CategorySeeder extends Seeder
         DB::table('categories')->insert([
             'name' => 'Sepatu'
         ]);
+        DB::table('categories')->insert([
+            'name' => 'Tas'
+        ]);
+        DB::table('categories')->insert([
+            'name' => 'Aksesori'
+        ]);
     }
 }
